@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "wireless_testboard")(type "KiCad")(uri "${MY_PROJECT}/wireless_testboard.pretty")(options "")(descr ""))
+)

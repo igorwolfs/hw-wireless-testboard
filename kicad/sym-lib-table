@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wireless_testboard")(type "KiCad")(uri "${MY_PROJECT}/wireless.kicad_sym")(options "")(descr ""))
+)
