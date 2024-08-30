@@ -43,6 +43,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 33.02 81.28)
+		(size 63.5 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb3f05b6-a894-434f-9e49-66933fc7049f")
+		(property "Sheetname" "LORA"
+			(at 33.02 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LORA.kicad_sch"
+			(at 33.02 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hw_wireless_testboard"
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
