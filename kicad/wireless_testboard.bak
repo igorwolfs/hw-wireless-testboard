@@ -733,6 +733,814 @@
 			)
 		)
 	)
+	(symbol "DL-LLCC68-S-868"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "A"
+			(at 10.16 16.51 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DL-LLCC68-S-868"
+			(at 11.43 13.97 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "frodo_fancyfins:DL-LLCC68-S-868"
+			(at 21.59 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DL-LLCC68-S-868_1_1"
+			(rectangle
+				(start -7.62 12.7)
+				(end 7.62 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 10.16 6.35 180)
+				(length 2.54)
+				(name "ANT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 15.24 270)
+				(length 2.54)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 6.35 0)
+				(length 2.54)
+				(name "~{RST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "BSY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "DIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "DIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LLCC68"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -2.286 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LLCC68_1_1"
+			(rectangle
+				(start -20 19)
+				(end 18 -19)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -23 10 0)
+				(length 3)
+				(name "VDD_IN"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2 -22 90)
+				(length 3)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6 -22 90)
+				(length 3)
+				(name "VBAT_IO"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10 -22 90)
+				(length 3)
+				(name "DIO2"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 -10 180)
+				(length 3)
+				(name "DIO1"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 21 -6 180)
+				(length 3)
+				(name "BUSY"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 21 2 180)
+				(length 3)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 21 -2 180)
+				(length 3)
+				(name "NRESET"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 21 6 180)
+				(length 3)
+				(name "MOSI"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21 10 180)
+				(length 3)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10 22 270)
+				(length 3)
+				(name "NSS"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -23 6 0)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6 22 270)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 2 22 270)
+				(length 3)
+				(name "RFI_P"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -2 22 270)
+				(length 3)
+				(name "RFI_N"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6 22 270)
+				(length 3)
+				(name "RFO"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10 22 270)
+				(length 3)
+				(name "VR_PA"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17 -22 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -23 2 0)
+				(length 3)
+				(name "XTA"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -23 -2 0)
+				(length 3)
+				(name "XTB"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -23 -6 0)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -23 -10 0)
+				(length 3)
+				(name "DIO3"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10 -22 90)
+				(length 3)
+				(name "VREG"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6 -22 90)
+				(length 3)
+				(name "GND"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2 -22 90)
+				(length 3)
+				(name "DCC_SW"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "PE4259"
 		(exclude_from_sim no)
 		(in_bom yes)

@@ -1,4 +1,4 @@
-23767789126679669
+23764342700962784
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96627,27 +96627,6 @@ Varistor VF
 0
 2
 2
-allwinner_cpu
-QFN-88_EP_10x10_Pitch0.4mm_EPAD_6.8mm
-
-
-0
-104
-89
-allwinner_cpu
-eLQFP-128_14x14_Pitch0.4mm_EPAD_5.72mm
-
-
-0
-129
-129
-allwinner_cpu
-eLQFP-128_14x14_Pitch0.4mm_EPAD_6.60mm
-
-
-0
-129
-129
 wireless_testboard
 ATA2659
 
@@ -96662,3 +96641,10 @@ Integrated Circuit
 0
 24
 24
+wireless_testboard
+DL-LLCC68-S
+
+
+0
+16
+16
