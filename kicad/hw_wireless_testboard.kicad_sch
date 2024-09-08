@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 142 31)
+		(size 99 28)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50fdb7d1-4569-4c52-8829-8f3c547b35ac")
+		(property "Sheetname" "BLE"
+			(at 142 30.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLE.kicad_sch"
+			(at 142 59.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hw_wireless_testboard"
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 32.385 27.305)
 		(size 63.5 33.655)
 		(fields_autoplaced yes)
@@ -77,6 +115,53 @@
 			(project "hw_wireless_testboard"
 				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143 86)
+		(size 112 41)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e37a04e5-c2cd-4971-ba15-bb62af991442")
+		(property "Sheetname" "WLAN"
+			(at 143 85.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WLAN.kicad_sch"
+			(at 143 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 143 86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hw_wireless_testboard"
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821"
+					(page "5")
 				)
 			)
 		)
