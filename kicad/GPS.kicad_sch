@@ -863,223 +863,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "wireless_testboard:AT2659S"
+		(symbol "hw_wireless_testboard:AT2659S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1248,7 +1032,7 @@
 				)
 			)
 		)
-		(symbol "wireless_testboard:ATGM332D-5N31"
+		(symbol "hw_wireless_testboard:ATGM332D-5N31"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1294,7 +1078,7 @@
 				)
 			)
 			(property "Description" "Communication Modules/GNSS Modules 12.2x16x2.4mm"
-				(at 12.954 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1795,7 +1579,7 @@
 					)
 				)
 			)
-			(symbol "ATGM332D-5N31_0_1"
+			(symbol "ATGM332D-5N31_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 33.02 2.54) (xy 33.02 -33.02) (xy 5.08 -33.02) (xy 5.08 2.54)
@@ -1805,12 +1589,12 @@
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
 		)
-		(symbol "wireless_testboard:PE4259"
+		(symbol "hw_wireless_testboard:PE4259"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1970,6 +1754,222 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3424,7 +3424,7 @@
 		)
 		(uuid "65792e69-5c23-4b69-88e2-5eceacfe1ff7")
 	)
-	(label "NRESET"
+	(label "NRESET_GPS"
 		(at 38.1 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4790,104 +4790,6 @@
 		)
 	)
 	(symbol
-		(lib_id "wireless_testboard:AT2659S")
-		(at 196.85 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79fb1814-fcb0-48ac-9bc4-b9f60ab8f014")
-		(property "Reference" "U1"
-			(at 196.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 196.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 196.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109191430_ZHONGKEWEI-AT2659S_C883443.pdf"
-			(at 196.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcpcb" "C883443"
-			(at 196.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part" "AT2659S"
-			(at 196.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b9a43a24-d7f7-49b3-a56d-5b153d5aa28d")
-		)
-		(pin "6"
-			(uuid "d472cb08-ae70-4b50-a199-808e6b199d07")
-		)
-		(pin "5"
-			(uuid "6c1e5587-5994-49ca-90d1-b22a5bdce6b6")
-		)
-		(pin "2"
-			(uuid "20f87c8d-629d-415d-a984-e0081246342e")
-		)
-		(pin "1"
-			(uuid "78f23f23-f7cd-49f5-86ac-de89e9e743a5")
-		)
-		(pin "3"
-			(uuid "93d5b9c6-2d09-4481-8256-11716b3c9eb9")
-		)
-		(instances
-			(project ""
-				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 180.34 46.99 0)
 		(unit 1)
@@ -4895,7 +4797,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7bc4d214-0c47-4dc2-894f-26119de7909b")
 		(property "Reference" "C1"
 			(at 182.88 45.7262 0)
@@ -4907,7 +4808,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 182.88 48.2662 0)
+			(at 181.61 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,53 +4925,33 @@
 		)
 	)
 	(symbol
-		(lib_id "wireless_testboard:ATGM332D-5N31")
-		(at 91.44 26.67 0)
+		(lib_id "hw_wireless_testboard:AT2659S")
+		(at 196.85 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82215b3f-f6df-4346-b41a-831eb9d8eba8")
-		(property "Reference" "U2"
-			(at 110.49 19.05 0)
+		(uuid "8b8860b6-78a7-418d-9a24-a8ff266955a7")
+		(property "Reference" "U3"
+			(at 196.85 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ATGM332D-5N31"
-			(at 110.49 21.59 0)
+		(property "Value" "~"
+			(at 196.85 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ATGM332D-5N31:ATGM332D5N31"
-			(at 125.73 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ZHONGKEWEI-ATGM332D-5N31_C128659.pdf"
-			(at 125.73 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Communication Modules/GNSS Modules 12.2x16x2.4mm"
-			(at 104.394 21.59 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+			(at 196.85 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,102 +4959,64 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Partr" "ATGM332D-5N31"
-			(at 125.73 36.83 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109191430_ZHONGKEWEI-AT2659S_C883443.pdf"
+			(at 196.85 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C128659"
-			(at 125.73 39.37 0)
+		(property "Description" ""
+			(at 196.85 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "14"
-			(uuid "c6945e6a-736f-4fa2-b0dc-3bccc9ddf202")
+		(property "jlcpcb" "C883443 "
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "8"
-			(uuid "89ff9b47-737b-4bf0-b2cb-3a467fc6e352")
-		)
-		(pin "19"
-			(uuid "54b5e378-875b-40eb-8cdf-4d000cd6f65f")
-		)
-		(pin "9"
-			(uuid "42967f5c-f6d5-4517-b6eb-8ae08ebae6c6")
-		)
-		(pin "10"
-			(uuid "91491bdc-a264-40f2-bbff-039a506edef6")
-		)
-		(pin "11"
-			(uuid "516a048d-8668-4586-999e-9462c30d3bca")
-		)
-		(pin "1"
-			(uuid "131e150b-62ab-405a-8300-564b2f0ab82f")
-		)
-		(pin "16"
-			(uuid "add2ce1b-af12-4099-8b7c-ce4972849436")
+		(property "MFR.Part" "AT2659S"
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "4faa6b9e-d6b3-4561-bdaf-b06ba598389e")
+			(uuid "495c264d-8203-4622-a930-95b1dcc39e18")
 		)
-		(pin "12"
-			(uuid "495bfc86-825d-4896-9c2d-091e114e5291")
-		)
-		(pin "18"
-			(uuid "458e8130-f57f-49be-a6fa-843594c271e8")
-		)
-		(pin "4"
-			(uuid "1d24c0cc-dee5-4f7e-a614-3bf3f3b0a94c")
-		)
-		(pin "15"
-			(uuid "1dd19811-c7d7-48f6-a7fd-be382be3edd5")
-		)
-		(pin "24"
-			(uuid "14b98278-1dec-4716-aa22-9a4a9033625a")
-		)
-		(pin "13"
-			(uuid "dfa03ae8-a4b3-41af-b0cb-2ac90f3b87da")
-		)
-		(pin "23"
-			(uuid "dc53989f-7928-4766-a517-f3d6073bf71b")
-		)
-		(pin "5"
-			(uuid "379cac79-ce9d-4cfb-a14d-a75294e953ff")
-		)
-		(pin "7"
-			(uuid "59a5cd15-da92-4baf-ad34-9a43a5872789")
+		(pin "1"
+			(uuid "1db262c5-0d02-4cc1-a994-0b6ea2f8767f")
 		)
 		(pin "3"
-			(uuid "b261d094-8515-4318-a052-50794961fbda")
+			(uuid "6f3aff72-9b9b-4d8f-9d9e-9c0ad7872be0")
 		)
 		(pin "6"
-			(uuid "5f5e2019-441e-4288-bb6d-7c68561f945f")
+			(uuid "3024249f-bdb2-4e18-9f30-b10862bc0e0f")
 		)
-		(pin "17"
-			(uuid "48d192ad-290c-4055-8733-f8bddbbcfbcf")
+		(pin "4"
+			(uuid "9a00579c-cc7f-4bec-a57e-9b61d739ba87")
 		)
-		(pin "22"
-			(uuid "839cb6b4-6e25-4ab8-acec-6e0bb52f3d42")
-		)
-		(pin "21"
-			(uuid "efb97a61-afdb-4d1a-9678-f8822fe19a25")
-		)
-		(pin "20"
-			(uuid "cd2e7bc2-7250-4428-bf07-7c7d659f3461")
+		(pin "5"
+			(uuid "263dab31-97e4-4694-9efb-72bee55addd5")
 		)
 		(instances
-			(project "hw_wireless_testboard"
+			(project ""
 				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5241,6 +5084,104 @@
 			(project "hw_wireless_testboard"
 				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
 					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hw_wireless_testboard:PE4259")
+		(at 240.03 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a7ea5de-ccf2-42c1-a0ca-5942486650a9")
+		(property "Reference" "U6"
+			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912201405_pSemi-PE4259-63_C470892.pdf"
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C470892"
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part" "PE4259-63 "
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "654852ee-65af-410b-a8ad-3556fb9d4c5b")
+		)
+		(pin "5"
+			(uuid "c087090c-0ed1-45d4-be6e-fa4a10346e77")
+		)
+		(pin "3"
+			(uuid "0f777613-a832-449f-a4d1-5bd86f301eae")
+		)
+		(pin "4"
+			(uuid "7011c18c-6995-417b-a7ee-7c5e8247b661")
+		)
+		(pin "6"
+			(uuid "04204638-7267-4279-a405-3c4924da02be")
+		)
+		(pin "1"
+			(uuid "ee5ca666-5e11-412f-b8c2-9c1f5584b5a0")
+		)
+		(instances
+			(project ""
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5646,16 +5587,53 @@
 		)
 	)
 	(symbol
-		(lib_id "wireless_testboard:PE4259")
-		(at 240.03 44.45 180)
+		(lib_id "hw_wireless_testboard:ATGM332D-5N31")
+		(at 91.44 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6335efa-5a33-48f3-a50e-ec785ff5c54b")
-		(property "Reference" "U3"
-			(at 240.03 34.29 0)
+		(fields_autoplaced yes)
+		(uuid "e902b59b-d543-4dcf-9e32-e6d18e17a8c2")
+		(property "Reference" "U5"
+			(at 110.49 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ATGM332D-5N31"
+			(at 110.49 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hw_wireless_testboard:ATGM332D5N31"
+			(at 125.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/ZHONGKEWEI-ATGM332D-5N31_C128659.pdf"
+			(at 125.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Communication Modules/GNSS Modules 12.2x16x2.4mm"
+			(at 91.44 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,81 +5641,132 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PE4259"
-			(at 240.03 53.34 0)
+		(property "Description_1" "Communication Modules/GNSS Modules 12.2x16x2.4mm"
+			(at 125.73 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
-			(at 240.03 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
-			(at 240.03 44.45 0)
+		(property "Height" "2.6"
+			(at 125.73 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 44.45 0)
+		(property "Manufacturer_Name" "ZHONGKEWEI"
+			(at 125.73 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "MFR.Part" "PE4259-63 "
-			(at 240.03 44.45 0)
+		(property "Manufacturer_Part_Number" "ATGM332D-5N31"
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "jlcpcb" "C470892"
-			(at 240.03 44.45 0)
+		(property "LCSC" "C128659"
+			(at 125.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "f944bc7d-b4b9-48c7-a3d4-a26594f4e8cd")
-		)
-		(pin "5"
-			(uuid "7a84b1c7-ad28-4b43-a672-e5ced4f99d13")
-		)
-		(pin "6"
-			(uuid "ee5c563d-f10b-41d6-8414-f7add22bc5b7")
-		)
-		(pin "1"
-			(uuid "34673532-4f34-4d8d-bf77-0f43ccbf88aa")
-		)
-		(pin "2"
-			(uuid "905b152e-0501-41bf-a792-03fb6a74560e")
 		)
 		(pin "4"
-			(uuid "cacf22b1-dd48-4125-9802-48d378315b3e")
+			(uuid "82326e7a-f638-469e-9fdc-999ae679b896")
+		)
+		(pin "9"
+			(uuid "e8961d83-e687-4e69-9a4e-0205b6ade9df")
+		)
+		(pin "16"
+			(uuid "8ae1f814-b4c7-4572-9b4f-0965e6418634")
+		)
+		(pin "6"
+			(uuid "404c5cb2-51c9-4b10-be15-3a12599cd821")
+		)
+		(pin "19"
+			(uuid "39674a68-6208-4861-acd8-d686d8e95146")
+		)
+		(pin "18"
+			(uuid "f886e690-8c2a-4f3e-995e-68888550273b")
+		)
+		(pin "2"
+			(uuid "80cf95c0-bf08-4231-ba00-64b1c574ebb1")
+		)
+		(pin "1"
+			(uuid "b61666e4-28d2-48cd-9afa-d086274ea8b8")
+		)
+		(pin "10"
+			(uuid "d8021fe8-4fcf-448f-a3e8-149002526f1e")
+		)
+		(pin "8"
+			(uuid "66c1ba15-4cc4-45b3-bf38-651d67702a16")
+		)
+		(pin "7"
+			(uuid "2822a991-fa41-46c8-84f4-4047b62cd499")
+		)
+		(pin "17"
+			(uuid "389c4ebe-9996-440b-90bd-e00dc0be0251")
+		)
+		(pin "21"
+			(uuid "d4170e56-67ea-46f0-aeff-b8a5b952dd0a")
+		)
+		(pin "23"
+			(uuid "0009f401-254e-46ca-852d-332817a03bae")
+		)
+		(pin "22"
+			(uuid "58e30cfe-f94a-4765-b58a-16e7c5bf7b09")
+		)
+		(pin "5"
+			(uuid "da41f13f-a327-4079-8ac5-d9e99f1e2075")
+		)
+		(pin "12"
+			(uuid "54a32bb3-dd3e-4d9e-aec4-56c9894753a7")
+		)
+		(pin "11"
+			(uuid "156bee81-beef-4bd8-8234-bc526370f63d")
+		)
+		(pin "24"
+			(uuid "3620a6da-918e-47c4-9405-9a8c449a7381")
+		)
+		(pin "3"
+			(uuid "711afce0-be72-4ae2-b01a-b579a2c2bae3")
+		)
+		(pin "15"
+			(uuid "a7bd779f-b9d4-4022-baf9-217269e052f5")
+		)
+		(pin "13"
+			(uuid "90441076-23f0-48af-b271-17106d354472")
+		)
+		(pin "14"
+			(uuid "39061357-bad7-4525-b1f8-b3740618ed94")
+		)
+		(pin "20"
+			(uuid "7157e06f-0898-44c5-8ed7-96172e6f1756")
 		)
 		(instances
 			(project ""
 				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
