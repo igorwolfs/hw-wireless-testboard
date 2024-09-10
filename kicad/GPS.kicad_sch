@@ -2005,6 +2005,12 @@
 		(uuid "4f066c2d-c0c8-4717-adbb-a2af2c8082d4")
 	)
 	(junction
+		(at 76.2 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60b445f7-32dc-4ab7-898e-0f1b5bc11734")
+	)
+	(junction
 		(at 180.34 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2085,6 +2091,16 @@
 			(type default)
 		)
 		(uuid "03445778-4cfe-4a79-aebc-2c7d1ac93302")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 76.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7ea94d-fb21-4030-a565-350380eb1c83")
 	)
 	(wire
 		(pts
@@ -2245,6 +2261,16 @@
 			(type default)
 		)
 		(uuid "4c971435-f762-42ef-a854-024d4a1d641d")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6756eb-b38c-40b6-ba97-068dd3c7a152")
 	)
 	(wire
 		(pts
@@ -2428,6 +2454,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 44.45) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9ae39d-6bee-4555-b3dd-fd8b6ef45f8f")
+	)
+	(wire
+		(pts
 			(xy 34.29 46.99) (xy 39.37 46.99)
 		)
 		(stroke
@@ -2575,6 +2611,16 @@
 			(type default)
 		)
 		(uuid "eaf2582d-c43e-4bf8-aea8-d7480f58848b")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc08419-5837-423f-99f5-6b033e85da79")
 	)
 	(wire
 		(pts
@@ -3369,6 +3415,16 @@
 		)
 		(uuid "2f9e7622-f885-4384-a3c9-c8ed0e275db8")
 	)
+	(text "Vil: 0.2*Vcc\nVih: 0.7*Vcc\nResistor is probably optional"
+		(exclude_from_sim no)
+		(at 97.282 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df6cd414-32c0-4f61-b278-6d088b7040c5")
+	)
 	(label "I2C_SDA"
 		(at 91.44 34.29 180)
 		(fields_autoplaced yes)
@@ -3379,17 +3435,6 @@
 			(justify right bottom)
 		)
 		(uuid "03f64130-d3d0-49a9-87ae-43d23c0d01e7")
-	)
-	(label "NRESET"
-		(at 91.44 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1aba01d5-9ca4-4e25-9979-84f77598e654")
 	)
 	(label "1PPS"
 		(at 133.35 31.75 0)
@@ -3413,6 +3458,17 @@
 		)
 		(uuid "309e25e4-0628-4006-a4e9-6fa946d04b2c")
 	)
+	(label "nRESET_GPS"
+		(at 80.01 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d2fc160-2e9a-4161-b8e6-7cba79eac48a")
+	)
 	(label "UART2_RX"
 		(at 91.44 41.91 180)
 		(fields_autoplaced yes)
@@ -3424,8 +3480,8 @@
 		)
 		(uuid "65792e69-5c23-4b69-88e2-5eceacfe1ff7")
 	)
-	(label "NRESET_GPS"
-		(at 38.1 81.28 0)
+	(label "nRESET_GPS"
+		(at 83.82 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3433,9 +3489,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "673f52b9-e34c-4354-a421-17e2526138fc")
+		(uuid "6aead1f8-8f35-409f-ad0a-7c6d196068cf")
 	)
-	(label "UART1_RX"
+	(label "GPS_UART1_RX"
 		(at 39.37 27.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3446,7 +3502,7 @@
 		)
 		(uuid "7a86df3f-e7be-4576-9f7b-e95fb15a0469")
 	)
-	(label "UART1_TX"
+	(label "GPS_UART1_TX"
 		(at 39.37 25.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3490,7 +3546,7 @@
 		)
 		(uuid "b265dba8-a0c1-402f-86f1-9fc09fe44525")
 	)
-	(label "UART2_RX"
+	(label "GPS_UART2_RX"
 		(at 39.37 44.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3501,7 +3557,7 @@
 		)
 		(uuid "b58e4ce5-1107-4e23-a70d-24bfec00b7d8")
 	)
-	(label "UART1_TX"
+	(label "GPS_UART1_TX"
 		(at 91.44 29.21 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3534,7 +3590,7 @@
 		)
 		(uuid "d08f8c2a-84d5-4d9c-8845-6a49353e7bbe")
 	)
-	(label "UART1_RX"
+	(label "GPS_UART1_RX"
 		(at 91.44 31.75 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3545,7 +3601,7 @@
 		)
 		(uuid "da239f43-0040-459c-a774-b45f54f3420d")
 	)
-	(label "UART2_TX"
+	(label "GPS_UART2_TX"
 		(at 39.37 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4171,6 +4227,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 76.2 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27113b33-42c2-4786-83d0-6b04c4f28830")
+		(property "Reference" "#PWR032"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 79.6 78.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7ae53c1-9c84-4056-a1fc-ed9e157bc03e")
+		)
+		(instances
+			(project "hw_wireless_testboard"
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 171.45 39.37 90)
 		(unit 1)
@@ -4584,6 +4705,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 76.2 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fbdc18d-8e5a-4c10-9ddf-4ff4fe543350")
+		(property "Reference" "#PWR033"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e0fceb2-0363-468d-b332-b0a2e65f3f9e")
+		)
+		(instances
+			(project ""
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 144.78 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4925,6 +5112,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 76.2 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80ed6b67-88d8-4d7c-af24-7158c013a72a")
+		(property "Reference" "SW4"
+			(at 77.47 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 77.47 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfdfdba1-5566-4c1e-8247-ef9882cc8b71")
+		)
+		(pin "2"
+			(uuid "8cd4e760-ab69-46b5-965f-69fc29c3da00")
+		)
+		(instances
+			(project "hw_wireless_testboard"
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hw_wireless_testboard:AT2659S")
 		(at 196.85 36.83 180)
 		(unit 1)
@@ -5255,6 +5512,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 76.2 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b82d669a-4246-4d0a-80a0-20de8f231505")
+		(property "Reference" "R6"
+			(at 77.978 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 74.422 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "316ee9ce-b759-4d55-88a5-de584ab6372e")
+		)
+		(pin "2"
+			(uuid "3cfd48e8-f597-4f36-b205-9226bae3abd8")
+		)
+		(instances
+			(project "hw_wireless_testboard"
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 83.82 0)
 		(unit 1)
@@ -5519,6 +5845,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 76.2 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d024dcdd-c17f-4747-88eb-e80db7c0b3e1")
+		(property "Reference" "R4"
+			(at 77.978 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 74.422 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "250596c0-be36-4c79-912a-f7c1b935ed21")
+		)
+		(pin "2"
+			(uuid "47d184e2-105a-49f2-9ad3-5e48f549762e")
+		)
+		(instances
+			(project "hw_wireless_testboard"
+				(path "/601a88ea-2da7-4ec4-b637-f587eb4ba821/57c5955f-b8b9-4575-a804-102112654a2f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 238.76 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5536,7 +5931,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 236.728 32.512 90)
+			(at 239.014 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)

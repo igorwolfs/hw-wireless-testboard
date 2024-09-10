@@ -398,10 +398,6 @@
     [
       "50fdb7d1-4569-4c52-8829-8f3c547b35ac",
       "BLE"
-    ],
-    [
-      "e37a04e5-c2cd-4971-ba15-bb62af991442",
-      "WLAN"
     ]
   ],
   "text_variables": {}
